@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+> 
 
 
 ==========
@@ -56,6 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
+good mornin'
 
 
 
@@ -66,7 +67,7 @@ $ echo *
 
 What happens?
 ----------
-
+Applications Creative Cloud Files Desktop Documents Downloads Library Movies Music Pictures Public aardvark foo mtec1002 pineapple stuff
 
 
 ==========
@@ -74,7 +75,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+[CTRL + C]
 
 
 ==========
@@ -87,6 +88,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 
@@ -97,7 +104,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+title="Lunar New Year 2019" width="550" id="hplogo" onload="window.lol&&lol()"><br></a><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hidden"><input value="en" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden"><input name="bih" type="hidden"><div class="ds" style="height:32px;margin:4px 0"><input style="color:#000;margin:0;padding:5px 8px 0 6px;vertical-align:top" autocomplete="off" class="lst" value="" title="Google Search" maxlength="2048" name="q" size="57"></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="Google Search" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" value="I'm Feeling Lucky" name="btnI" onclick="if(this.form.q.value)this.checked=1; else top.location='/doodles/'" type="submit"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=en&amp;authuser=0">Advanced search</a><a href="/language_tools?hl=en&amp;authuser=0">Language tools</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"><script nonce="WezkezV+1H/lHrziLr7aoA==">(function(){var a,b="1";if(document&&document.getElementById)if("undefined"!=typeof XMLHttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(g.value=a);f&&window.setTimeout(function(){location.href=f},0)};}).call(this);</script></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="fll"><a href="/intl/en/ads/">Advertising?Programs</a><a href="/services/">Business Solutions</a><a href="https://plus.google.com/116899029375914044550" rel="publisher">+Google</a><a href="/intl/en/about.html">About Google</a></div></div><p style="color:#767676;font-size:8pt">&copy; 2019 - <a href="/intl/en/policies/privacy/">Privacy</a> - <a href="/intl/en/policies/terms/">Terms</a></p></span></center><script nonce="WezkezV+1H/lHrziLr7aoA==">(function(){window.google.cdo={height:0,width:0};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=google.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this);})();(function(){var u='/xjs/_/js/k\x3dxjs.hp.en_US.u_ipRcQvtQc.O/m\x3dsb_he,d/am\x3dYsAs/rt\x3dj/d\x3d1/rs\x3dACT90oGPKz3FJy_bpNALKiQ0JSm1uT7uxQ';var b={gen204:"xjsls",clearcut:31};setTimeout(function(){var a=document.createElement("script");a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load",b);document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.hp.en_US.u_ipRcQvtQc.O/m\x3dsb_he,d/am\x3dYsAs/rt\x3dj/d\x3d1/rs\x3dACT90oGPKz3FJy_bpNALKiQ0JSm1uT7uxQ';})();function _DumpException(e){throw e;}
 
 
 ==========
@@ -105,7 +112,10 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
-
+curl www.google.com. -o google.html
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13558    0 13558    0     0   160k      0 --:--:-- --:--:-- --:--:--  159k
 
 
 ==========
@@ -113,7 +123,8 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
+pwd
+/Users/kyleholston
 
 
 ==========
@@ -121,7 +132,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+/Users/kyleholston
 
 
 ==========
@@ -137,6 +148,11 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
+curl http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip -o mtec1002-lab-02.zip   
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   8954      0 --:--:-- --:--:-- --:--:--  9368
+
 
 
 
@@ -145,7 +161,7 @@ Write down the command that you used to download the file below.  Additionally, 
 
 Write down the command that you used to uncompress the file.
 ----------
-
+unzip
 
 
 ==========
@@ -153,8 +169,9 @@ Write down the command that you used to uncompress the file.
 
 Copy and paste the output below.
 ----------
-
-
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   9022      0 --:--:-- --:--:-- --:--:--  9368
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -164,6 +181,7 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
+/Users/kyleholston/stuff
 
 
 
@@ -176,21 +194,19 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
+/Users/kyleholston/stuff
 
 
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
 
-$ tar -cvf stuff.tar stuff
-
 List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below.
 ----------
-
-
-
+cd .. stuff
+.		..		.localized	Shared		kyleholston
 ==========
 19. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
 
@@ -198,15 +214,14 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
-
+.		..		.localized	Shared		kyleholston
 
 ==========
 20. List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
-
+.		..		.localized	Shared		kyleholston
 
 
 ==========
@@ -216,7 +231,12 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
-
+total 0
+drwxr-xr-x   5 root         admin   170 Dec 22 21:48:53 2017 .
+drwxr-xr-x  30 root         wheel  1088 Jan 25 23:31:34 2019 ..
+-rw-r--r--   1 root         wheel     0 Jul 30 15:25:37 2016 .localized
+drwxrwxrwt   8 root         wheel   272 Dec 11 22:26:07 2018 Shared
+drwxr-xr-x+ 28 kyleholston  staff   952 Feb  5 00:55:53 2019 kyleholston
 
 
 ==========
@@ -230,7 +250,12 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+total 0
+drwxr-xr-x   5 root         admin   170 Dec 22  2017 .
+drwxr-xr-x  30 root         wheel  1088 Jan 25 23:31 ..
+-rw-r--r--   1 root         wheel     0 Jul 30  2016 .localized
+drwxrwxrwt   8 root         wheel   272 Dec 11 22:26 Shared
+drwxr-xr-x+ 28 kyleholston  staff   952 Feb  5 00:55 kyleholston
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -239,6 +264,7 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+ls: Desktop: No such file or directory
 
 
 
@@ -258,9 +284,16 @@ REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 
 Write out the commands that you used to do this.
 ----------
+curl http://foureyes.github.io/mtec1002/labs/02/secret.tar.gz
 
 
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
 ----------
+70 files
+..
+ .
+ localized
+Shared
+kyleholston
