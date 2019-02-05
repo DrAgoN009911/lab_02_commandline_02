@@ -34,6 +34,8 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
+touch: foo.txt: Permission denied
+Shared		kyleholston
 
 
 
@@ -41,6 +43,8 @@ Copy and paste the output below.
 7. Create another new file using touch.
 
 $ touch bar.txt
+touch: bar.txt: Permission denied
+
 ----------
 
 
@@ -50,6 +54,7 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
+0 drwxr-xr-x  5 root  170 Dec 22 21:48:53 2017 ./
 
 
 
@@ -59,6 +64,8 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
+-bash: bar.txt: command not found
+0 drwxr-xr-x  5 root  170 Dec 22 21:48:53 2017 ./
 
 
 
@@ -67,13 +74,18 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+delete bar.txt
+-bash: delete: command not found
+
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
+0 drwxr-xr-x  5 root  170 Dec 22 21:48:53 2017 ./
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+mkdir touch qux.txt
+0 drwxr-xr-x  5 root  170 Dec 22 21:48:53 2017 ./
 
 
 ==========
@@ -88,15 +100,16 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
-
-
+rmdir my_files
+The directory my_files doesn't have a file or a directory.
 
 ==========
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
 ----------
-
+rm my_files
+The direcotry my_files doesn't have a file or a directory.
 
 
 ==========
@@ -118,6 +131,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
+-bash: catbooks/other/pg1232.txt: No such file or directory
 
 
 
@@ -130,6 +144,7 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+-bash: catbooks/other/pg1232.txt: No such file or directory
 
 
 
@@ -142,7 +157,14 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+Most people start at our Web site which has the main PG search facility:
 
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 
 ==========
@@ -154,7 +176,8 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
-
+-bash: q: command not found
+Space bar and q make the command not be found.
 
 
 ==========
@@ -162,15 +185,17 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
+The head shows the first ten lines of a file, the tail shows that last part of the file, the cat joins different files together and print the result on screen, less shows a file per page navigating up or down and more shows the file per page as well but onyl to increase up by one.
 
 
 ==========
-21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
+21.  How many words are in pg1232.txt? What command did you use to determine the word count?
 ----------
-
-
+wc -w pg1232.txt
+The command WC -w
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+wc -l pg1232.txt
+The command wc -l
