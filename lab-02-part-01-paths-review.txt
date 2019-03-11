@@ -31,7 +31,8 @@ cd desktop
 ==========
 4. What's the absolute path to your home directory?
 ----------
-home/username/directory/
+pwd
+/Users/student
 
 
 
@@ -52,17 +53,18 @@ home/username/directory/desktop/
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
 ----------
-..\Desktop\ 
+Desktop 
 
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
 ----------
-mkdir stuff
-cd stuff
-pwd
 
-
+ent-v314-010:~ student$ mkdir /users/student/desktop/stuff
+cd desktop
+ls
+Share 1 Read Only	Sound Effects Server	stuff
+Share 2 Read-Write	Student Temporary Work
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
@@ -86,14 +88,14 @@ cd .. directory
 ==========
 12. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
-Hit the upwards arrow once
-Hit the upwards arrow again
+cd desktop
+../..
 
 
 ==========
 13. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/profesor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
-pwd
+cd -
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
